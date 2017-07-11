@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		301FF88A1F1442A30083200E /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 301FF8891F1442A30083200E /* GoogLeNetPlaces.mlmodel */; };
+		304B5D2F1F1449AD005035C9 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 304B5D2E1F144934005035C9 /* GoogLeNetPlaces.mlmodel */; };
 		CD8A65A11EE7EC0700942922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A65A01EE7EC0700942922 /* AppDelegate.swift */; };
 		CD8A65A31EE7EC0700942922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A65A21EE7EC0700942922 /* ViewController.swift */; };
 		CD8A65A61EE7EC0700942922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65A41EE7EC0700942922 /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		301FF8891F1442A30083200E /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		304B5D2E1F144934005035C9 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		CD8A659D1EE7EC0700942922 /* SceneDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8A65A01EE7EC0700942922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD8A65A21EE7EC0700942922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		CD8A65B21EE7EC4100942922 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				301FF8891F1442A30083200E /* GoogLeNetPlaces.mlmodel */,
+				304B5D2E1F144934005035C9 /* GoogLeNetPlaces.mlmodel */,
 				CD8A65A41EE7EC0700942922 /* Main.storyboard */,
 				CD8A65A71EE7EC0700942922 /* Assets.xcassets */,
 				CD8A65B51EE7ECF600942922 /* Default-568h@2x.png */,
@@ -155,7 +155,7 @@
 			files = (
 				CD8A65A31EE7EC0700942922 /* ViewController.swift in Sources */,
 				CD8A65A11EE7EC0700942922 /* AppDelegate.swift in Sources */,
-				301FF88A1F1442A30083200E /* GoogLeNetPlaces.mlmodel in Sources */,
+				304B5D2F1F1449AD005035C9 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +203,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -258,6 +260,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
